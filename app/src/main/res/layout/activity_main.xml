@@ -185,8 +185,13 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:text="min&#60;&#61;hour &#38;&#38; hour&#60;&#61;max"
+                android:ellipsize="none"
+                android:scrollbars="horizontal"
+                android:singleLine="true"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="5pt"
+                />
 
             <TextView
                 android:id="@+id/textView12"
@@ -196,9 +201,13 @@
                 android:layout_rowWeight="1"
                 android:layout_column="1"
                 android:layout_columnWeight="1"
+                android:ellipsize="none"
+                android:scrollbars="horizontal"
+                android:singleLine="true"
                 android:text="System.out.println(greeting + &#34;, World!&#34;)"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="5pt" />
 
 
         </GridLayout>
