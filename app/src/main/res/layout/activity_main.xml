@@ -190,7 +190,7 @@
                 android:singleLine="true"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="5pt"
+
                 />
 
             <TextView
@@ -207,7 +207,7 @@
                 android:text="System.out.println(greeting + &#34;, World!&#34;)"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="5pt" />
+                 />
 
 
         </GridLayout>
